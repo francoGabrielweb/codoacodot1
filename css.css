@@ -1,0 +1,17 @@
+.contendor-logo{
+     
+    & img{
+        vertical-align: middle;
+    }
+
+    & h2{
+    display: inline-block;
+
+    
+    }
+    
+}
+
+.hastaaca{
+    min-width: 338px;
+}
