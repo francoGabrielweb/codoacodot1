@@ -96,7 +96,7 @@ header{
     align-content: center;
     justify-content: center;
     gap: 40px;
-
+    overflow: hidden;
  
   } 
 
@@ -114,8 +114,61 @@ header{
 
 
 
+  }
 
+
+
+    
+    .contendorSeccion{
+      display: flex;
+      flex-wrap: wrap;
+      width: 100%;
+      margin-top: 10px;
+      margin-bottom: 10px;
+
+     
+
+
+     
+    }
+
+    .hijo_nuevo{
+     background-image: url("./imagenes/honolulu.jpg");
+     background-size: cover;
+     width: 50%;
+     height: 500px;
+     flex: 1 0 500px;
 
 
   }
 
+
+ 
+
+     .texto-info-pais{
+
+      width: 50%;
+      height: 500px;
+      flex: 1 0 500px;
+   
+      word-wrap: break-word;
+     }
+
+ 
+
+     .contendorfotter{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color:rgb(28, 61, 78);
+      width: 100%;
+      height: 70px;
+      margin-top: 10px;
+      margin-bottom: 10px;
+      
+
+      & li {
+        list-style: none;
+      }
+     }
