@@ -21,8 +21,6 @@ body {
 
 
 
-
-
 html, body {
     touch-action: manipulation;
 
@@ -56,35 +54,41 @@ html, body {
 
     text-align: center;
     position: absolute;
-    
-    width: 80%;
+    width: 50%;
     height: 100%;
+  
+
+    padding: 20px;
  
 
     right:  0;
-    word-wrap: break-word;
-    & p {
-     font-size: 0.9em;
 
-       width: 100%;
+    & p {
+     font-size: 1rem;
+
+       
       
 
         color: aliceblue;
         font-weight: bold;
-        resize: vertical;
+
         overflow: hidden;
   
 
      
        
-        word-wrap: break-word;
+    
     }
 
 
     
 }
 
-/* @media screen and (max-width: 600px) {
+ @media screen and (max-width: 600px) {
+  .contendor-texto{
+    width: 100%;
+  }
+  
   .contendor-texto p{
 
     font-size: 0.5em;
@@ -95,7 +99,7 @@ html, body {
 
     font-size: 1em;
   }
-} */
+}
 
 
 
@@ -147,7 +151,7 @@ html, body {
      background-size: cover;
      width: 50%;
      height: 500px;
-     flex: 1 0 500px;
+     flex: 1 0 414px;
 
 
   }
@@ -159,7 +163,7 @@ html, body {
 
       width: 50%;
       height: 500px;
-      flex: 1 0 500px;
+      flex: 1 0 414px;
    
       word-wrap: break-word;
      }
