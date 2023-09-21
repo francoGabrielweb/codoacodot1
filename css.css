@@ -68,7 +68,7 @@ html, body {
 
        width: 100%;
       
-      background-color: blue;
+
         color: aliceblue;
         font-weight: bold;
         resize: vertical;
@@ -99,27 +99,33 @@ html, body {
 
 
 
-
-
-
-
-
-  .dising-oradores{
-
-      
-    display: flex;
-    align-content: center;
-    justify-content: center;
-    gap: 40px;
-    overflow: hidden;
+.design-oradores{
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%;
+  flex-wrap: wrap;
  
-  } 
+ .card {
+  width: 400px;
+  min-width: 200px;
 
-  .dising-oradores card{
+ } 
 
-    flex: 1 0 500px;
-  }
 
+
+& img{
+    height: 100%;
+   background-size: cover;
+}
+
+}
+
+
+
+
+
+ 
 
 
     
